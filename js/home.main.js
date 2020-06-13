@@ -1,0 +1,1 @@
+function myFunction(i){i.classList.toggle("change")}function set_height(){var i=$(".testimonial-text").height();$(".tesimonial-rating").height(i)}$(document).ready(function(){$("body").show(),$(".menu-icon").click(function(){$(".header-collapse").fadeToggle(500)}),767<$(window).width()&&set_height()}),$(window).resize(function(){767<$(window).width()&&set_height()});
